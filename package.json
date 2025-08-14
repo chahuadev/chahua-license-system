@@ -1,0 +1,57 @@
+{
+  "name": "chahua-license-system",
+  "version": "2.0.0",
+  "description": "🔐 ระบบจัดการลิขสิทธิ์ระดับมืออาชีพสำหรับแอปพลิเคชัน Electron พร้อมการผูกเครื่องและความปลอดภัยขั้นสูง",
+  "main": "chahua-license-system/index.js",
+  "scripts": {
+    "test": "node chahua-license-system/scripts/validate-license.js",
+    "generate": "node chahua-license-system/scripts/generate-license.js",
+    "validate": "node chahua-license-system/scripts/validate-license.js",
+    "quick-license": "node chahua-license-system/scripts/quick-license.js",
+    "demo": "cd ui && python -m http.server 8000",
+    "start": "npm run demo"
+  },
+  "keywords": [
+    "license",
+    "electron",
+    "security",
+    "authentication",
+    "machine-fingerprint",
+    "chahua",
+    "license-system",
+    "drm",
+    "software-protection",
+    "thailand",
+    "ระบบไลเซนส์",
+    "ความปลอดภัย"
+  ],
+  "author": {
+    "name": "Chahua Development Thailand",
+    "email": "dev@chahuadev.com",
+    "url": "https://www.chahuadev.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://github.com/chahuadev/chahua-license-system",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chahuadev/chahua-license-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chahuadev/chahua-license-system/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "chahua-license-system/",
+    "tools/",
+    "ui/",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "lib": "chahua-license-system/lib",
+    "test": "test"
+  }
+}

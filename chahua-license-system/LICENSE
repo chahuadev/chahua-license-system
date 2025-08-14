@@ -1,21 +1,76 @@
-MIT License
+CHAHUA LICENSE SYSTEM - PROPRIETARY SOFTWARE LICENSE
 
 Copyright (c) 2025 Chahua Development Thailand
+สงวนลิขสิทธิ์ © 2025 ชาฮัว ดีเวลอปเมนต์ ประเทศไทย
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+================================================================================
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+สัญญาอนุญาตซอฟต์แวร์เชิงพาณิชย์
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software and associated documentation files (the "Software") are proprietary 
+to Chahua Development Thailand ("Licensor") and are protected by copyright law 
+and international treaties.
+
+ซอฟต์แวร์นี้และไฟล์เอกสารที่เกี่ยวข้อง ("ซอฟต์แวร์") เป็นกรรมสิทธิ์ของ 
+ชาฮัว ดีเวลอปเมนต์ ประเทศไทย ("ผู้ให้สิทธิ") และได้รับการคุ้มครองโดยกฎหมาย
+ลิขสิทธิ์และสนธิสัญญาระหว่างประเทศ
+
+LICENSE GRANT / การให้สิทธิใช้งาน:
+Subject to the terms of this agreement, Licensor grants you a non-exclusive, 
+non-transferable license to use the Software solely for your internal business 
+purposes, subject to obtaining a valid commercial license.
+
+ภายใต้เงื่อนไขของข้อตกลงนี้ ผู้ให้สิทธิให้สิทธิแก่คุณในการใช้ซอฟต์แวร์
+สำหรับธุรกิจภายในของคุณเท่านั้น โดยต้องได้รับใบอนุญาตเชิงพาณิชย์ที่ถูกต้อง
+
+RESTRICTIONS / ข้อจำกัด:
+- You may NOT distribute, sublicense, rent, lease, or lend the Software
+- You may NOT reverse engineer, decompile, or disassemble the Software  
+- You may NOT remove or alter any proprietary notices on the Software
+- You may NOT use the Software for competitive analysis
+
+- คุณห้ามแจกจ่าย ให้สิทธิช่วง เช่า หรือให้ยืมซอฟต์แวร์
+- คุณห้ามวิเคราะห์ย้อนกลับ แปลงกลับ หรือแยกชิ้นส่วนซอฟต์แวร์
+- คุณห้ามลบหรือเปลี่ยนแปลงประกาศกรรมสิทธิ์ในซอฟต์แวร์
+- คุณห้ามใช้ซอฟต์แวร์เพื่อการวิเคราะห์เชิงแข่งขัน
+
+COMMERCIAL LICENSE REQUIRED / ต้องมีใบอนุญาตเชิงพาณิชย์:
+To use this Software in production or commercial environments, you must obtain 
+a valid commercial license from Chahua Development Thailand.
+
+เพื่อใช้ซอฟต์แวร์นี้ในสภาพแวดล้อมการผลิตหรือเชิงพาณิชย์ คุณต้องได้รับ
+ใบอนุญาตเชิงพาณิชย์ที่ถูกต้องจาก ชาฮัว ดีเวลอปเมนต์ ประเทศไทย
+
+Contact for licensing: dev@chahuadev.com
+ติดต่อเพื่อขอใบอนุญาต: dev@chahuadev.com
+
+DISCLAIMER / การปฏิเสธความรับผิดชอบ:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+ซอฟต์แวร์นี้จัดหาให้ "ตามสภาพ" โดยไม่มีการรับประกันใดๆ ไม่ว่าจะโดย
+นัยหรือโดยปริยาย รวมถึงแต่ไม่จำกัดเพียงการรับประกันเรื่องความเหมาะสม
+ทางการค้า ความเหมาะสมสำหรับวัตถุประสงค์เฉพาะ และการไม่ละเมิดสิทธิ
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+
+ผู้เขียนหรือเจ้าของลิขสิทธิ์จะไม่รับผิดชอบต่อการเรียกร้อง ความเสียหาย 
+หรือความรับผิดชอบอื่นใด ไม่ว่าในการกระทำตามสัญญา การละเมิด หรืออื่นๆ 
+ที่เกิดขึ้นจากหรือเกี่ยวข้องกับซอฟต์แวร์หรือการใช้งาน
+
+================================================================================
+
+For commercial licensing and support:
+สำหรับใบอนุญาตเชิงพาณิชย์และการสนับสนุน:
+
+Chahua Development Thailand
+ชาฮัว ดีเวลอปเมนต์ ประเทศไทย
+Email: dev@chahuadev.com
+Website: https://www.chahuadev.com
+
+================================================================================
