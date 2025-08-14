@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตัวอย่างการใช้งาน Chahua License Widget</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f7fa;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .code-example {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .btn:hover {
+            background: #0056b3;
+        }
+        
+        .section {
+            margin: 30px 0;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+        .demo-project {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .demo-project h4 {
+            color: #856404;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔐 Chahua License Widget</h1>
+            <p>ปุ่มลอยแสดงสถานะ License สำหรับโปรเจกต์ Chahua</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>🚀 วิธีใช้งานในโปรเจกต์ของคุณ</h2>
+                
+                <h3>ขั้นตอนที่ 1: Copy ไฟล์</h3>
+                <p>Copy โฟลเดอร์ <code>chahua-license-system/ui/</code> ไปยังโปรเจกต์ของคุณ</p>
+                
+                <h3>ขั้นตอนที่ 2: เพิ่ม Script</h3>
+                <p>เพิ่มในไฟล์ <code>index.html</code> หรือไฟล์ HTML หลักของคุณ:</p>
+                <div class="code-example">
+&lt;!-- เพิ่มก่อนปิด &lt;/body&gt; --&gt;
+&lt;script src="chahua-license-system/ui/license-widget.js"&gt;&lt;/script&gt;
+
+&lt;!-- Auto-init Widget --&gt;
+&lt;div data-chahua-license
+     data-project-name="ชื่อโปรเจกต์ของคุณ"
+     data-project-url="/dashboard"
+     data-api-endpoint="/api/license/check"
+     data-position="bottom-right"
+     data-theme="dark"&gt;&lt;/div&gt;
+                </div>
+                
+                <h3>ขั้นตอนที่ 3: ตั้งค่า API Endpoint</h3>
+                <p>สร้าง API endpoint <code>/api/license/check</code> ที่ return ข้อมูล license:</p>
+                <div class="code-example">
+// ตัวอย่าง API response
+{
+  "success": true,
+  "licensed": true,
+  "status": "UNBOUND license active",
+  "daysRemaining": 90,
+  "licenseType": "UNBOUND",
+  "expiresAt": "2025-11-14T00:00:00.000Z",
+  "pluginId": "com.chahua.dbmanager"
+}
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📋 ตัวอย่างการใช้งานจริง</h2>
+                
+                <div class="demo-project">
+                    <h4>🗄️ Database Manager</h4>
+                    <p>เพิ่มใน <code>renderer/index.html</code>:</p>
+                    <div class="code-example">
+&lt;script src="../chahua-license-system/ui/license-widget.js"&gt;&lt;/script&gt;
+&lt;div data-chahua-license
+     data-project-name="Chahua Database Manager"
+     data-project-url="/dashboard"
+     data-api-endpoint="http://localhost:3000/api/license/check"
+     data-position="bottom-right"
+     data-theme="dark"&gt;&lt;/div&gt;
+                    </div>
+                </div>
+                
+                <div class="demo-project">
+                    <h4>🌐 Web Application</h4>
+                    <p>สำหรับ web application ทั่วไป:</p>
+                    <div class="code-example">
+&lt;script src="assets/js/license-widget.js"&gt;&lt;/script&gt;
+&lt;div data-chahua-license
+     data-project-name="My Web App"
+     data-project-url="/"
+     data-api-endpoint="/api/license/status"
+     data-position="bottom-left"
+     data-theme="light"&gt;&lt;/div&gt;
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>⚙️ การปรับแต่ง</h2>
+                
+                <h3>Data Attributes</h3>
+                <ul>
+                    <li><code>data-project-name</code>: ชื่อโปรเจกต์ที่แสดงใน widget</li>
+                    <li><code>data-project-url</code>: URL ลิงก์ไปยังหน้าหลักของโปรเจกต์</li>
+                    <li><code>data-api-endpoint</code>: API endpoint สำหรับตรวจสอบ license</li>
+                    <li><code>data-position</code>: ตำแหน่ง (bottom-right, bottom-left, top-right, top-left)</li>
+                    <li><code>data-theme</code>: ธีม (dark, light)</li>
+                    <li><code>data-show-details</code>: แสดงรายละเอียด (true, false)</li>
+                </ul>
+                
+                <h3>Manual JavaScript Init</h3>
+                <div class="code-example">
+&lt;script&gt;
+const widget = ChahuaLicenseWidget.init({
+    projectName: 'My Project',
+    projectUrl: '/home',
+    apiEndpoint: '/api/license/check',
+    position: 'bottom-right',
+    theme: 'dark',
+    showDetails: true,
+    checkInterval: 300000 // 5 minutes
+});
+&lt;/script&gt;
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🎨 สีสถานะ</h2>
+                <ul>
+                    <li><span style="color: #00d084;">🟢 เขียว</span>: License ใช้งานได้ปกติ (เหลือมากกว่า 30 วัน)</li>
+                    <li><span style="color: #ffb800;">🟡 เหลือง</span>: License ใกล้หมดอายุ (เหลือน้อยกว่า 30 วัน)</li>
+                    <li><span style="color: #ff4757;">🔴 แดง</span>: License หมดอายุหรือไม่ถูกต้อง</li>
+                    <li><span style="color: #3742fa;">🔵 น้ำเงิน</span>: UNBOUND License (สำหรับ Development)</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>🔗 ลิงก์ที่เป็นประโยชน์</h2>
+                <a href="demo.html" class="btn">🎨 ดู Demo</a>
+                <a href="https://www.chahuadev.com" class="btn">🌐 Chahua Development</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Example Widget -->
+    <div data-chahua-license
+         data-project-name="License Widget Example"
+         data-project-url="#"
+         data-api-endpoint="data:application/json,{%22success%22:true,%22licensed%22:true,%22status%22:%22UNBOUND%20license%20active%22,%22daysRemaining%22:90,%22licenseType%22:%22UNBOUND%22,%22expiresAt%22:%222025-11-14T00:00:00.000Z%22,%22pluginId%22:%22com.chahua.example%22}"
+         data-position="bottom-right"
+         data-theme="dark"></div>
+    
+    <script src="license-widget.js"></script>
+</body>
+</html>

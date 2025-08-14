@@ -1,0 +1,41 @@
+{
+  "name": "chahua-license-system",
+  "version": "1.0.0",
+  "description": "Professional license system for Electron applications with machine fingerprint binding and advanced security",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test-license.js",
+    "generate": "node scripts/generate-license.js",
+    "validate": "node scripts/validate-license.js"
+  },
+  "keywords": [
+    "license",
+    "electron",
+    "security",
+    "authentication",
+    "machine-fingerprint",
+    "chahua"
+  ],
+  "author": "Chahua Development Thailand <dev@chahuadev.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "os": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron": "^37.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chahuadev/chahua-license-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chahuadev/chahua-license-system/issues"
+  },
+  "homepage": "https://www.chahuadev.com/license-system"
+}

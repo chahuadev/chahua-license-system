@@ -1,0 +1,113 @@
+<mxfile host="65bd71144e">
+    <diagram id="chahua-license-system" name="License System Architecture">
+        <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- Main Library Box -->
+                <mxCell id="2" value="🔐 Chahua License System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="300" y="40" width="250" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Core Components -->
+                <mxCell id="3" value="📁 lib/" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="80" y="150" width="120" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="4" value="license-generator.js&#xa;🔑 ระบบสร้าง license" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6" vertex="1" parent="1">
+                    <mxGeometry x="40" y="220" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="5" value="license-guard.js&#xa;🛡️ ระบบตรวจสอบ license" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6" vertex="1" parent="1">
+                    <mxGeometry x="200" y="220" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- UI Components -->
+                <mxCell id="6" value="📁 ui/" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="400" y="150" width="120" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="7" value="license-widget.js&#xa;🎨 Floating License Widget" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" vertex="1" parent="1">
+                    <mxGeometry x="380" y="220" width="160" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Scripts -->
+                <mxCell id="8" value="📁 scripts/" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="580" y="150" width="120" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="9" value="generate-license.js&#xa;⚡ CLI Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" vertex="1" parent="1">
+                    <mxGeometry x="560" y="220" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Legacy Support -->
+                <mxCell id="10" value="legacy.js&#xa;🔄 Backward Compatibility" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00" vertex="1" parent="1">
+                    <mxGeometry x="300" y="320" width="200" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Usage Examples -->
+                <mxCell id="11" value="💡 การใช้งาน" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="300" y="430" width="250" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="12" value="Electron App&#xa;📱 Desktop Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6" vertex="1" parent="1">
+                    <mxGeometry x="80" y="500" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="13" value="Web App&#xa;🌐 Browser Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf" vertex="1" parent="1">
+                    <mxGeometry x="350" y="500" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="14" value="CLI Tools&#xa;⚡ Command Line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450" vertex="1" parent="1">
+                    <mxGeometry x="580" y="500" width="140" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Connections -->
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
